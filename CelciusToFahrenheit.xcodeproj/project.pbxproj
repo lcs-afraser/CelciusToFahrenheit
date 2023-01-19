@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6E0B31B2297710F300771E52 /* CelciusToFahrenheitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B31B1297710F300771E52 /* CelciusToFahrenheitApp.swift */; };
-		6E0B31B4297710F300771E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B31B3297710F300771E52 /* ContentView.swift */; };
 		6E0B31B6297710F500771E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B31B5297710F500771E52 /* Assets.xcassets */; };
 		6E0B31B9297710F500771E52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B31B8297710F500771E52 /* Preview Assets.xcassets */; };
+		6E0B31C12977116100771E52 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B31C02977116100771E52 /* CalculatorView.swift */; };
+		6E33314C2979BD16008CBD1B /* CelciusToFahrenehit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E33314B2979BD16008CBD1B /* CelciusToFahrenehit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E0B31AE297710F300771E52 /* CelciusToFahrenheit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelciusToFahrenheit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0B31B1297710F300771E52 /* CelciusToFahrenheitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelciusToFahrenheitApp.swift; sourceTree = "<group>"; };
-		6E0B31B3297710F300771E52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E0B31B5297710F500771E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E0B31B8297710F500771E52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E0B31C02977116100771E52 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		6E33314B2979BD16008CBD1B /* CelciusToFahrenehit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelciusToFahrenehit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				6E0B31B1297710F300771E52 /* CelciusToFahrenheitApp.swift */,
-				6E0B31B3297710F300771E52 /* ContentView.swift */,
+				6E0B31BF2977114900771E52 /* Views */,
 				6E0B31B5297710F500771E52 /* Assets.xcassets */,
 				6E0B31B7297710F500771E52 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				6E0B31B8297710F500771E52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E0B31BF2977114900771E52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B31C02977116100771E52 /* CalculatorView.swift */,
+				6E33314B2979BD16008CBD1B /* CelciusToFahrenehit.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0B31B4297710F300771E52 /* ContentView.swift in Sources */,
+				6E0B31C12977116100771E52 /* CalculatorView.swift in Sources */,
 				6E0B31B2297710F300771E52 /* CelciusToFahrenheitApp.swift in Sources */,
+				6E33314C2979BD16008CBD1B /* CelciusToFahrenehit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
